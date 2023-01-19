@@ -1,0 +1,120 @@
+Online Compiler - ideone.com
+https://ideone.com/Js9W8k - Biodata
+https://ideone.com/svJSJx - Age,Percentage and Grade
+https://ideone.com/bJveOk - Calculate volume of cylinder
+https://ideone.com/1Bzzu6 - Calculate simple interest
+https://ideone.com/On0KKF - Swap two variables
+https://ideone.com/jIjSZ3 - Convert temperature from Fahrenheit to Celsius
+https://ideone.com/cdBcie - Check even or odd using if-else statement
+https://ideone.com/7Kxues - Check student pass or fail using if-else statement
+https://ideone.com/Bu84xm - Find Grade using if-else statement
+https://ideone.com/F9EUq6 - Find area using switch case
+https://ideone.com/EqiLsK - Display from 10 to 1 using while loop
+https://ideone.com/RWSOLN - Display squares from 1 to 10 using while loop
+https://ideone.com/UQpagN - Display factorial of a no. using while loop
+https://ideone.com/TcIKSy - Display table of a number using for loop
+https://ideone.com/vR43HA - Display even nos. between 1 to 50 using for loop
+https://ideone.com/eyjI6T - Check armstrong number using do..while loop 
+https://ideone.com/NfTgE1 - Check whether vowel or constant using switch case
+https://ideone.com/TwDoQu - Check palindrome number using do..while loop
+https://ideone.com/BnLppE - Display factors of a number using for loop
+https://ideone.com/meu0BA - Display sum of digit of a number using do..while loop
+https://ideone.com/vVXc0u - Display reverse of a number using do..while loop
+https://ideone.com/LQx2Jq - Display table upto a given number using nested loop
+https://ideone.com/CfRGyZ - Display star pattern using nested loop
+				*
+				**
+				***
+				****
+https://ideone.com/WBiTWJ - Display number pattern using nested loop
+				1
+				12
+				123
+				1234
+https://ideone.com/abot1s - Display alphabet pattern using nested loop
+				A
+				BC
+				DEF
+				GHIJ
+				KLMNO
+https://ideone.com/Uxs4jJ - Display reverse star pattern using nested loop
+				****
+				***
+				**
+				*
+https://ideone.com/u0mr8v - Display odd nos. from 1 to 30 using for loop and continue statement
+https://ideone.com/uvO0NP - Display cube of a number using goto statement
+https://ideone.com/ZjhvoZ - Display prime no. or composite no. using break statement
+https://ideone.com/Cjk9Hv - Display nos. between 20 & 60 except divisible by 7
+https://ideone.com/Kw0x3V - Display number pattern using nested loop
+				12345
+				2345
+				345
+				45
+				5
+https://ideone.com/c5qwTo - Name,percentage,and age using user defined function
+https://ideone.com/Q5RkiQ - Display factorial of a number using user defined function
+https://ideone.com/mVvPh0 - Display table of a number using function
+https://ideone.com/r7RfIx - Display reverse of a number using user defined function
+https://ideone.com/iVGVma - Display greatest of three nos. using function
+https://ideone.com/m6eFkX - Convert km into meters using function
+https://ideone.com/SS18Bg - Calculate cube of a number using function
+https://ideone.com/bmqsb7 - Check leap year or not using function
+https://ideone.com/lrdzSb - Calculate sum by calling of one user defined function into another user 			    defined function
+https://ideone.com/dJtPE1 - Calculate factorial of a no. using recursion
+https://ideone.com/FZ6hbu - Display fibonacci series using recursion
+https://ideone.com/VUJD6J - Calculate power of a number using recursion
+https://ideone.com/PZR5qz - Display the values,position and memory location in an array
+https://ideone.com/XDQYFv - Display squares of elements in an array
+https://ideone.com/dXxKJJ - Display sum and average in an array
+https://ideone.com/20BVJ3 - Display elements in reverse order in an array
+https://ideone.com/zIyzd2 - Copying content of one array into another
+https://ideone.com/0qEdkc - Search the element present in array or not
+https://ideone.com/vUM9G6 - Sort the marks in decreasing order
+https://ideone.com/z9OEf7 - Insert the elements in an array
+https://ideone.com/bkFZbo - Display Maximum value in an array
+https://ideone.com/A3VPE6 - Display Minimum value in an array
+https://ideone.com/Mpm7xJ - Display remaining ids of employees when one of them left
+https://ideone.com/9DJ8fl - Program to enter our name and count vowels in it
+https://ideone.com/dfTOkV - Program to display an array
+https://ideone.com/CCesy3 - Program to display matrix and its transpose
+https://ideone.com/PWpOeq - Program to calculate sum of matrix
+https://ideone.com/yfD1PL - Program to calculate difference of matrix
+https://ideone.com/cOnM99 - Program to claculate sum of diagonals of a matrix
+https://ideone.com/2rR2lM - Program to enter array in function as an argument and calculate sum
+https://ideone.com/8uX3eC - Program to display value and memory address of pointer
+https://ideone.com/crBTxj - Program to perform indirect reference
+https://ideone.com/E7l93D - Program to perform arithmetic operations on pointers
+https://ideone.com/tVbfdv - Program of wild pointer
+https://ideone.com/pWYyDK - Program of null pointer
+https://ideone.com/nYQfyr - Program of void pointer
+https://ideone.com/QiHFAr - Program to calculate sum of elements using pointer to array concept
+https://ideone.com/1YlHRj - Program to search the element using pointer to array
+https://ideone.com/xMOvTG - Program to swap the values using call by value
+https://ideone.com/rhSUxK - Program to swap the values using call by reference
+https://ideone.com/tr5ZW4 - Program to cube a value using call by value
+https://ideone.com/YgXBof - Program to cube a value using call by reference
+https://ideone.com/jyK8oN - Program to allocate memory using DMA to display odd values
+https://ideone.com/gJOCV3 - Program of realloc()
+https://ideone.com/GtVjcd - Program to declare a string using character pointer
+https://ideone.com/Wk6boB - Program to reverse the string without using inbuilt functions
+https://ideone.com/XT9yXC - Program to compare two strings without using inbuilt functions
+https://ideone.com/wdad2T - Convert upper case string into lower case without using inbuilt fs
+https://ideone.com/ZMQ9Qe - Program of binary search concept
+https://ideone.com/iy49Lh - Program to concatenate two strings without using strcat()fn
+https://ideone.com/A3ZFBO - Program to define structure
+https://ideone.com/jOJIxN - Program of structure
+https://ideone.com/FpDPWe - Program using concept of Array of structure variable
+https://ideone.com/z01b2T - Program using concept of Array of structure variable
+https://ideone.com/HlLVJ3 - Program using concept of Pointer with structure variable
+https://ideone.com/uzkDyb - Program using atoi() function
+https://ideone.com/Ki8CqE - Program using atof() function
+https://ideone.com/XJm1GT - Program using atol() function
+https://ideone.com/4ZQtqR - Program to display information of student using nested structure
+https://ideone.com/QTmUEz - Program using calloc()
+
+http://www.haghish.com/statistics/stata-blog/stata-programming/ascii_characters.php - ASCII Chart
+
+
+
+
