@@ -1,0 +1,64 @@
+1 In three schema architecture of DBMS, which of the layers is used to store data physically onto to disk space
+a) External
+b) Internal
+c) Conceptual
+d) Logical
+
+ans- b
+
+2. Consider a table employee in which there is an attribute named city whose value is preset as 'Mumbai' while creating the table. Which of the following constraints is used to set such values so that when the INSERT INTO statement does not provide a specific value for city attribute, then 'Mumbai' is inserted.
+
+a) Check
+b) Default
+c) Unique
+d) Not NULL
+
+ans -b
+
+3. Consider a table student with attributes Reg_no, Name, Section, Cgpa. To retreive the Reg_no and names of those students whose Cgpa lies in the range 6 to 9, which of the following queries will be used?
+
+a)select * from student where Cgpa between 6 and 9
+b)select * from student where Cgpa between 6 to 9
+c)select Reg_no, Name from student where Cgpa between 6 and 9
+d)select Reg_no, Name from student where Cgpa between 6 or 9
+
+ans-c
+
+4. Let A,B and C be tthree strong entity sets in an E-R diagram with simple single-valued attributes. R1 is a relationship between A and B with one-to-many cardinality ratio. R2 is a relationship between B and C with many-to-one cardinality ratio. Both the relationship sets do not have any attributes of their own. What is the minimum number of tables required represent this situation in the relation model?
+a) 2
+b) 3 
+c) 4
+d) 5
+
+ans-b
+
+5. Which of the following is true with respect to weak entity set in an E-R diagram?
+
+a) a weak entity set is always present in total participation with the identifying relationship set.
+b) It contains sufficient attributes to form its primary key
+c) A diamond symbol is used for the representation of the relationship that exists d) between the strong and weak entity set
+None of them
+
+ans-a
+
+6. What is the equivalent relational algebra query for the following SQL query
+
+SELECT Name, Age FROM Student where age>18
+
+options 
+
+7. If a minimum cardinality is 0 then it signifies........... and if minimum cardinality is 1 then it is a..............
+a)weak entity, strong entity
+b)partial participation, total participation 
+c)strong entity, weak enitity
+d)total participation, partial participation
+
+ans-b
+
+8. What is the minimum and maximum number of tables required to convert an ER diagram into relational model with 2 entities and 1 relationship between them with total participation of atleast one entity?
+a)min 1 and max 2
+b)min 1 and max 3
+c)min 2 and max 3
+d)min 2 and max 2
+
+ans-b

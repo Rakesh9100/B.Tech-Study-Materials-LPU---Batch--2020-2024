@@ -1,0 +1,69 @@
+-- write a query to create a table examination with column examcenter and examcity and city should not be NULL
+create table examination(examcenter int, examcity varchar(20) Not NULL);
+-- insert the data into the table 
+insert into examination(examcenter,examcity) values(1,'Jal');
+
+select * from examination;
+-- write a query to insert data into examcenter
+insert into examination(examcenter) values(2); cannot insert NULL into ("TEACHER"."EXAMINATION"."EXAMCITY")
+-- write a query to insert data into examcity
+insert into examination(examcity) values('phg');
+-- write a query to apply not null constraint on examcenter column
+alter table examination modify examcenter not null; cannot enable (TEACHER.) - null values found examcenter column having null value
+--truncate : DDL command , it is used to delete all the tuples from the table
+-- truncate table tablename
+truncate table examination;
+desc examination;
+-- write a query to apply not null constraint on examcenter column
+alter table examination modify examcenter not null; -- Table altered.
+--insert data into table examination:
+insert into examination(examcenter,examcity) values(1,'Jal');
+insert into examination(examcenter,examcity) values(2,'Phg');
+insert into examination(examcenter,examcity) values(3,'hsp');
+-- delete all the contents from the table 
+delete from examination;
+select * from examination;
+--insert data into table examination:
+insert into examination(examcenter,examcity) values(1,'Jal');
+insert into examination(examcenter,examcity) values(2,'Phg');
+insert into examination(examcenter,examcity) values(3,'hsp');
+-- write a query to delete a row for examination center 1
+delete from examination where examcenter=1;
+-- write a query to delete for examcity phg;
+delete from examination where examcity='Phg'; --<, <= , >= ,!= RELATIONAL OPERATOR 
+-- update
+-- write a query to update exam city to jalandhar 
+update examination set examcity='jalandhar';
+select * from examination;
+-- write a query to update examcity to phagwara where examcenter =1
+update examination set examcity='phagwara' where examcenter=1;
+insert all into examination(examcenter, examcity) values(5,'Hisar')
+  into examination(examcenter, examcity) values(6,'Ambala')
+into examination(examcenter, examcity) values(7,'chandigargh')
+select * from dual;
+
+select sysdate from dual;
+select 4+5 from dual;
+select 2 from dual;
+select 4*5 from dual;
+select 'th' from dual;
+-- write a query to retrieve  examcenter from table examination
+select examcenter from examination;
+-- write a query to retrieve examcenter from table examination where examcity is Hisar 
+select examcenter from examination where examcity='Hisar';
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

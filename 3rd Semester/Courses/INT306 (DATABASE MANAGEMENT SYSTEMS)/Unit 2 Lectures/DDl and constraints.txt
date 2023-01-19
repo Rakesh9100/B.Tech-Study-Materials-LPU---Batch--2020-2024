@@ -1,0 +1,58 @@
+create table employee1(empno int primary key, empname varchar(20),Basic int, hr int , ta int);
+
+-- write a query to delete structure of the table employee1 
+
+drop table employee1;
+
+-- alter DDL statement : add a new column, modify a column , delete a column, rename
+-- write a query to add phoneno in employee table 
+-- alter table tablename add columnname datatype(size);
+alter table employee add phoneno int;
+-- alter table tablename add primary key(columnname); primary key at the tome of structure updation 
+alter table student add primary key(regno);
+-- write a query to remove primary key from the table 
+--alter table tablename drop primary key
+alter table employee drop primary key;
+-- write a query to delete ta column from the table
+--alter table tablename drop column columname;
+alter table employee drop column ta;
+-- write a query to check the structure of the table 
+desc employee;
+ - write a query to add new column depid with primary key 
+alter table employee add depid int primary key;
+--write a query to modify the datatype or size of depid column
+--alter table tablename modify columnname newdatatype(size)
+alter table employee modify depid varchar(20);
+select * from tab;
+
+-- write a query to rename the table name from employee to employee_details
+- rename oldname to new-name_table
+rename employee to employee_details;
+-- write a query to checked the structure of table employee_details 
+desc employee_details;
+-- to fetch the data from the table employee_details
+select * from employee_details;
+-- write a query to rename column from phoneno to MNo
+--alter table tablename rename column old_column_name to new_column_name
+alter table employee_details rename column phoneno to MNo;
+-- write a query  to create a table deptwith deptid as primary key and deptname
+create table dept_details(deptid int primary key, deptname varchar(20));
+-- write a query to refer deptid of employee_details  table from dept_details
+--alter table tablename add foreign key(column_from_current_table) references primary_keytablname(columnname)
+alter table employee_details add foreign key(depid) references dept_details(deptid);
+
+-- modify datataype of deptid of employee_details table to int
+alter table employee_details modify depid int;
+
+-- write a query to remove primary key from depid from employee_details
+alter table employee_details drop primary key
+-- desribe the structure of all_constraints table( this table store the details of all rthe constraints)
+desc all_constraints
+-- write a query to retrive te details of all the constarints 
+select * from all_constraints
+-- write a query to create a table register with column deptid  refer the column from other table
+create table tablename( columnname datatype references othertablename(columnname)
+or
+create table tablename(columnname datatype(size), foreign key(columnname) references othertablename(columnname)
+create table register(deptid int references dept_details(deptid));
+

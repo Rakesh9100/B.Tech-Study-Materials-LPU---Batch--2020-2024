@@ -1,0 +1,52 @@
+--write a query to create a table warehouse with warehouse_id as primary key , define of the name parimary key, second column warehouse_name, phoneno as unique key
+
+create table warehouse(warehouse_id int, warehouse_name varchar(30), phone_no int, constraint k1 primary key(warehouse_id), constraint
+k2 unique(phone_no));
+or
+drop table warehouse; -- delete structure of the table 
+create table warehouse(warehouse_id int constraint k1 primary key, warehouse_name varchar(30), phone_no int constraint
+k2 unique);
+-- write a query to insert the value into table warehouse warehouse id 3, warehousename infoguard
+insert into warehouse(warehouse_id,warehouse_name) values(3,'infoguard');
+-- retrieve the values from the table warehouse
+select * from warehouse;
+insert into warehouse(warehouse_id,warehouse_name) values(4,'infoguard');
+insert into warehouse(warehouse_name) values('HRGuard');-- cannot insert NULL into ("TEACHER"."WAREHOUSE"."WAREHOUSE_ID")
+-- write a query to apply unique key on warehouse_name
+--alter table tablename add constraint constraintname unique(columnname);
+alter table warehouse add constraint k10 unique(warehouse_name); --cannot validate (TEACHER.K4) - duplicate keys found--table
+ containing duplicate value in warehouse_name 
+-- retrieve the data from table warehouse
+select * from warehouse;
+delete from warehouse where warehouse_id=4;-- delete the contents from the table 
+alter table warehouse add constraint k10 unique(warehouse_name); 
+-- write a query to delete unique constraint from warehouse_name
+alter table warehouse drop constraint k10; 
+select * from all_constraints;
+alter table warehouse drop constraint constraint_name 
+-- Check constraint- use to limit the value range that can be placed in the column 
+--create table tablename(col_name1, col_name2...., constraint constraint_name check(column condition)[DISABLE];
+-- write a query to create a table person with personid and age should be greater than or equalto 18
+create table person(personid int, age int check(age>=18));
+or 
+create table person(personid int, age int, constraint k11 check(age>=18));
+-- insert values into person table 
+insert into person values(1,10);-- check constraint (TEACHER.K11) violated
+insert into person values(1,18);-- 1 row(s) inserted.
+-- syntax 
+-- write a query to apply check constraint on available column of the table 
+--alter table tablename add constraint constraint_name check(column condition)
+--alter table tablename modify columnname check(column condition)
+write a query to drop constraint check from the table
+alter table person drop constraint k11;
+-- write a query to add check constraint on age column 
+alter table person modify age check(age>=18);
+alter table person add constraint k12 check(age>=18);
+-- default constraint :- is used to fill column with a default and fixed value 
+-- add a new column city and apply default city should be jalandhar 
+--alter table tablename add columnname datatype(size) default 'value';
+alter table person add city varchar(20) default 'jalandjhar';
+--
+select * from person;
+insert into person values(1,18,'phagwara');
+insert into person(personid,age) values(3,19);

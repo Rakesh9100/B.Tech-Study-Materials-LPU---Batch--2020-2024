@@ -1,0 +1,37 @@
+-- write a query to create student table with student_reg as primary key , name attribute .
+create table student( student_reg int, name varchar(20), constraint k5 primary key(student_reg));
+-- write a query to create table course with student_regno as foreign key and take reference from student table, 
+coursename
+create table course(student_reg int, 
+coursename varchar(20), 
+constraint k6 foreign key(student_reg) references student(student_reg));
+-- write a query to check the structure of the table student
+desc student;
+-- write a query to check the structure of the table course
+desc course;
+-- retrieve all constraints  data --inbuild table all_constraints
+select * from all_constraints; 
+-- insert the values into the table
+insert into student(student_reg,name) values(120,'Shailesh');
+insert into student(student_reg,name) values(210,'Kiran');
+-- write a query to retrieve the contents of table student;
+select * from student;
+insert into student(student_reg,name) values(210,'Kiran'); -- unique constraint (TEACHER.K5) violated , table only accept unique value
+for column student_reg
+insert into student(student_reg,name) values(211,'Kiran');
+insert into student(student_reg) values(212); -- will insert value into student_reg column 
+insert into student(name) values('hari'); --cannot insert NULL into ("TEACHER"."STUDENT"."STUDENT_REG")
+--describe course table
+desc course;
+insert into course(student_reg,coursename) values(211,'DMBS');
+select * from course;
+insert into course(student_reg,coursename) values(1,'DMBS');-- integrity constraint (TEACHER.K6) violated - parent key not found
+
+
+
+
+
+
+
+
+

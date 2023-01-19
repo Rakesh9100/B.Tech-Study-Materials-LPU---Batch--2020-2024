@@ -1,0 +1,64 @@
+--Write a query to create table teacher with attributes id and name without any primary key
+create table teacher(id int,
+name varchar(50));
+--write to check structure of the table 
+desc teacher;
+--b)	Write a query to create a table course with column id, coursename and term. Take a id column 
+as a reference column from teacher table
+create table course(id int, 
+coursename varchar(20),
+term int,
+constraint k1 foreign key(id) references teacher(id)); -- here it will give the error as primary key does not exist in teacher table 
+or
+create table course(id int references teacher(id), 
+coursename varchar(20),
+term int );
+--d)	Write a query to add primary key on the id column of teacher table
+alter table teacher add primary key(id);
+
+--Write a query to create a table course with column id, coursename and term. Take a id column 
+as a reference column from teacher table
+create table course(id int, 
+coursename varchar(20),
+term int,
+constraint k1 foreign key(id) references teacher(id)); -- this query will execute id is a primary key in teacher table
+
+desc course;
+-- a query to check all the constraints on the tables
+select * from all_constraints;
+-- c)	Add a column sitting place in the teacher table
+Alter table teacher add sitting_place varchar(30);
+-- to check structure of the table 
+desc teacher;
+--e)	Write a query to  insert the values in the table as details are mentioned
+INSERT INTO teacher(id, name) VALUES (1234,'Krabappel');
+INSERT INTO teacher (id, name) VALUES (5678,'Hoover');
+INSERT INTO teacher (id, name) VALUES (9012,'stepp');
+insert into course values(1234,'DBMS',21221);
+insert into course values(9012,'computer network',21221);
+
+
+-- write a query to retrieve data from teacher table 
+select * from teacher;
+-- write a query to retrieve data from course table
+select * from course;
+insert into course(coursename,term) values('computer network',21221); -- null values accepted a foreign key
+INSERT INTO teacher (name) VALUES ('stepp');-- ORA-01400: cannot insert NULL into ("TEACHER"."TEACHER"."ID")
+
+--f)	Write a query to delete column term from course table
+Alter table course drop column term;
+-- check the description of the table course
+desc course;
+--g)	Write a query to change the length of the coursename column to 32
+Alter table course modify coursename varchar(32);
+
+
+
+
+
+
+
+
+
+
+
