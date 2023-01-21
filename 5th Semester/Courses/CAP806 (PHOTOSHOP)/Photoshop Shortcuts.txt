@@ -1,0 +1,48 @@
+Photoshop is a image and video editing tool. It is a raster based programme which means it uses pixels to work with images.
+
+A vector mask is a resolution-independent path that clips out the contents of the layer.
+
+Embedding takes the placed content and puts the entirety of it within your working file.
+
+Linking the file takes the placed content and creates a dynamic link from that object to your Photoshop file.
+
+Canvas -- Pixel (Raster)
+Layers -- Transparent sheets of glass on which we can paint image.
+Canvas -- The actual workspace which is the visible area of the image.
+Shape or Pen Tool -- Vector (Mathematical Formula)
+Any work with pen tool is a vector.
+Pixel -- Dots per inch
+Resoluton -- Claity of a picture, More and more pixels gives more clarity
+JPEG -- Joint Photographic Expert Group
+BMP -- Bitmap Image
+GIF -- Graphic Interchange Format
+PNG -- Portable Network Graphics
+PSD -- Photoshop Document
+SVG -- Scalable Vector Graphics
+Ctrl (+) + -- Zoom in
+Ctrl (+) - -- Zoom out
+Ctrl (+) 0 -- Fit on screen
+Ctrl (+) D -- Deselect the selection
+V -- Move Tool
+[ -- Decrease the size of the brush
+] -- Increase the size of the brush
+Ctrl (+) R -- Hide and show the Ruler
+Ctrl (+) I -- Invert the color
+Alt + Backspace -- Apply Foreground color
+Ctrl + Backspace -- Apply Background color
+Alt + Delete -- Release and apply the color
+Alt + Shift + Left click -- Drag the image to make similar different forms
+Alt + Ctrl + Left Click -- Drag the image to make similar form
+Control + Shift + S -- Save as
+Ctrl + Shift + N -- Create a new layer
+Ctrl + J -- Duplicate a layer
+Ctrl + Alt + A -- Select all the layers
+Ctrl + Shift + E -- Merge all the layers
+Ctrl + Alt + Shift + E -- Merge all the visible layers into a new layer
+
+Vector Masking -- It is used for precision.
+We use pen tool for vector masking.
+
+
+
+
