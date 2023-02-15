@@ -1,4 +1,4 @@
-# <p align="center">🟡1st Semester</p>
+# <p align="center">🟡1st Semester🟡</p>
 
 This folder contains the Study Materials and Assignment Questions of the 1st Semester.
 
