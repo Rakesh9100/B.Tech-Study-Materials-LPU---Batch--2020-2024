@@ -1,4 +1,4 @@
-# <p align="center">🔴2nd Semester</p>
+# <p align="center">🔴2nd Semester🔴</p>
 
 This folder contains the Study Materials and Assignment Questions of the 2nd Semester.
 
