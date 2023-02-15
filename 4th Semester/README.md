@@ -1,6 +1,6 @@
 # <p align="center">🔵4th Semester🔵</p>
 
-This folder contains the Study Materials and Assignment Questions of the 4th Semester.
+This folder contains the Study Materials and Assignment Questions of the 4th Semester.<br><br>
 
 | 📝Course Code | 📝Course Name | 🔗Link |
 |:---:|:---:|:---:|
@@ -10,6 +10,7 @@ This folder contains the Study Materials and Assignment Questions of the 4th Sem
 |INT404|ARTIFICIAL INTELLIGENCE|[Click Here](https://github.com/Rakesh9100/B.Tech-Study-Materials-LPU---Batch--2020-2024/tree/main/4th%20Semester/Courses/INT404%20(ARTIFICIAL%20INTELLIGENCE))|
 |MTH302|PROBABILITY AND STATISTICS|[Click Here](https://github.com/Rakesh9100/B.Tech-Study-Materials-LPU---Batch--2020-2024/tree/main/4th%20Semester/Courses/MTH302%20(PROBABILITY%20AND%20STATISTICS))|
 |PEV106|VERBAL ABILITY-I|[Click Here](https://github.com/Rakesh9100/B.Tech-Study-Materials-LPU---Batch--2020-2024/tree/main/4th%20Semester/Courses/PEV106%20(VERBAL%20ABILITY-I))|
+<br>
 
 | 📝Assignment | 🔗Link |
 |:---:|:---:|
