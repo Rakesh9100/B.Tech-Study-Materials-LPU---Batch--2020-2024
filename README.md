@@ -17,7 +17,7 @@ This repository contains all the Study Materials and Assignment Questions of all
 |🟢 3rd Semester|Aug 2021 - Dec 2021|[Click Here](https://github.com/Rakesh9100/B.Tech-Study-Materials-LPU---Batch--2020-2024/tree/main/3rd%20Semester)|
 |🔵 4th Semester|Jan 2022 - May 2022|[Click Here](https://github.com/Rakesh9100/B.Tech-Study-Materials-LPU---Batch--2020-2024/tree/main/4th%20Semester)|
 |🟠 5th Semester|Aug 2022 - Dec 2022|[Click Here](https://github.com/Rakesh9100/B.Tech-Study-Materials-LPU---Batch--2020-2024/tree/main/5th%20Semester)|
-|🟣 6th Semester|Jan 2023 - |[Click Here]()|
+|🟣 6th Semester|Jan 2023 - May 2023|[Click Here](https://github.com/Rakesh9100/B.Tech-Study-Materials-LPU---Batch--2020-2024/tree/main/6th%20Semester)|
 |🟤 7th Semester||[Click Here]()|
 |⚪ 8th Semester||[Click Here]()|
 
