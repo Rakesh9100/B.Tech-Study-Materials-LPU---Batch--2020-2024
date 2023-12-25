@@ -1,0 +1,138 @@
+h1 {
+    text-align: center;
+    background-color: blue;
+}
+
+ul {
+    float: right;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+  
+li {
+    font-size: 23px;
+    font-weight: bold;
+    color: blue;
+    background-color: #9acd32;
+    display: inline;
+    font-style: italic;
+}
+
+.line1 {
+    margin-top: 48px;
+    height: 25px;
+}
+
+.introduction {
+    width: 32%;
+    float: left;
+}
+
+h2 {
+    text-align: center;
+    background-color: blue;
+}
+
+p {
+    background-color: #bdb76a;
+    font-weight: bold;
+}
+
+.image1 {
+    float: right;
+}
+
+table {
+    width: 100%;
+}
+
+h3 {
+    background-color: pink;
+    text-align: center;
+    font-weight: bold;
+}
+
+.table-content {
+    background-color: skyblue;
+    font-size: 15px;
+    text-align: center;
+    font-weight: bold;
+    width: 33.33%;
+}
+
+.content1 {
+    background-color: #7fffd4;
+}
+
+.content2 {
+    background-color: #d2691e;
+}
+
+.content3 {
+    background-color: #ffff00;
+}
+
+.line2 {
+    margin-top: 23px;
+    height: 25px;
+}
+
+.skills-bar {
+    width: 100px;
+    height: 8px;
+    background-color: rgb(237, 234, 234);
+    border: 2px solid black;
+    position: relative;
+    border-radius: 10px;
+}
+
+.skills-progress {
+    width: 80%;
+    height: 100%;
+    background-color: green;
+    border-radius: 10px;
+}
+
+.skills-label {
+    margin-left: 10px;
+    margin-top: -4px;
+    margin-right: 45px;
+}
+
+.line3 {
+    height: 25px;
+}
+
+.contact-form {
+    background-color: rgb(0, 139, 139);
+    padding-bottom: 0.1px;
+    text-align: center;
+}
+
+.contact-label {
+    font-size: 27px;
+}
+
+.contact-input {
+    margin-top: 16px;
+}
+
+.message-input {
+    width: 370px;
+    height: 160px;
+}
+
+.submit-button {
+    text-align: center;
+    margin-top: 16px;
+    margin-bottom: 10px;
+}
+
+.footer {
+    background-color: red;
+    margin-top: 5px;
+    padding: 2px;
+    font-size: 23px;
+    text-align: center;
+}
