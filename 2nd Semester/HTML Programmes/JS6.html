@@ -1,0 +1,51 @@
+<html>
+<head>
+<title>Javascript page</title>
+<script>
+function sum()
+{
+var x = document.getElementById("x").value;
+var y = document.getElementById("y").value;
+var z = parseInt(x) + parseInt(y);
+
+document.getElementById("demo").innerHTML = z;
+}
+function sub()
+{
+var x = document.getElementById("x").value;
+var y = document.getElementById("y").value;
+var z = parseInt(x) - parseInt(y);
+
+document.getElementById("demo").innerHTML = z;
+}
+function multi()
+{
+var x = document.getElementById("x").value;
+var y = document.getElementById("y").value;
+var z = parseInt(x) * parseInt(y);
+
+document.getElementById("demo").innerHTML = z;
+}
+function div()
+{
+var x = document.getElementById("x").value;
+var y = document.getElementById("y").value;
+var z = parseInt(x) / parseInt(y);
+
+document.getElementById("demo").innerHTML = z;
+}
+
+</script>
+</head>
+<body>
+<center>
+Enter x&nbsp&nbsp<input type="text" id="x"><br>
+Enter y&nbsp&nbsp<input type="text" id="y"><br><br>
+&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<button onclick="sum()">CLICK TO GET SUM</button><br><br>
+&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<button onclick="sub()">CLICK TO GET SUB</button><br><br>
+&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<button onclick="multi()">CLICK TO GET MULTI</button><br><br>
+&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<button onclick="div()">CLICK TO GET DIV</button><br><br>
+<div id="demo"</div>
+</center>
+</body>
+</html>

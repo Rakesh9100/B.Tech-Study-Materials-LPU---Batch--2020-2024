@@ -1,0 +1,54 @@
+<html>
+<head>
+<title>Javascript page</title>
+<style>
+button
+{
+border: 4px solid red;
+border-radius: 9px;
+width:100px;
+height:50px;
+color:red;
+background-color:yellow;
+}
+button:hover
+{
+background-color:blue;
+color:yellow;
+cursor:pointer;
+}
+</style>
+</head>
+
+<script>
+function greatest()
+{
+var x = parseInt(document.getElementById("x").value);
+var y = parseInt(document.getElementById("y").value);
+var z = parseInt(document.getElementById("z").value);
+if(x>y && x>z)
+{
+	document.getElementById("demo").innerHTML=x;
+}
+else if(y>z && y>x)
+{
+	document.getElementById("demo").innerHTML=y;
+}
+else
+{
+	document.getElementById("demo").innerHTML=z;
+}
+}
+
+</script>
+
+<body bgcolor="pink">
+<center>
+Enter x=<input type="text" id="x"><br>
+Enter y=<input type="text" id="y"><br>
+Enter z=<input type="text" id="z"><br><br>
+&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<button onclick="greatest()">GET GREATER</button><br/>
+<div id="demo"</div>
+</center>
+</body>
+</html>

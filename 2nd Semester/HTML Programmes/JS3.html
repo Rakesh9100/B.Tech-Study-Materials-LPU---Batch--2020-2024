@@ -1,0 +1,41 @@
+<html>
+<head>
+<style>
+button
+{
+border: 2px solid grey;
+border-radius: 10px;
+width:80px;
+height:100px;
+color:purple;
+background-color:pink;
+margin-top:10px;
+}
+
+</style>
+<title>Javascript page</title>
+<script>
+function sum()
+{
+var x = document.getElementById("x").value;
+var y = document.getElementById("y").value;
+var a = document.getElementById("a").value;
+var z = parseInt(x) + parseInt(y) + parseInt(a);
+
+document.getElementById("demo").innerHTML = z;
+}
+
+
+</script>
+</head>
+<body>
+<center>
+<input type="text" id="x"><br>
+<input type="text" id="y"><br>
+<input type="text" id="a"><br>
+<button onclick="sum()">click to get sum</button>
+<div id="demo"</div>
+</center>
+</body>
+</html>
+
